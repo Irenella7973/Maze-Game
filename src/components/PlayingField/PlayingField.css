@@ -1,0 +1,70 @@
+.cards{
+  background: rgba(63, 150, 243, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 35%;
+}
+.btn-again{
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: .8rem;
+  font-weight: 200;
+  line-height: 1;
+  padding: 1em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border-color: #f69729;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 40px 40px #f69629 inset, 0 0 0 0 #f69729;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-again:hover {
+  box-shadow: 0 0 10px 0 #f69729 inset, 0 0 10px 4px #f69729;
+}
+.btn-again:hover {
+  color: #f69729;
+  outline: 0;
+}
+
+@media (max-width: 1111px) {
+ .cards{
+  height: 50%;
+  width: 45%;
+ } 
+}
+@media (max-width: 770px) {
+  .cards{
+    height: 50%;
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .cards{
+    height: 50%;
+    width: 80%;
+  }
+}

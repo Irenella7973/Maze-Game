@@ -1,0 +1,14 @@
+.card-with-flag {
+  width: 25%;
+  height: 25%;
+  background-color: peachpuff;
+  border-radius: 4px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flag-start {
+  width: 50%;
+  max-height: 95%;
+}
